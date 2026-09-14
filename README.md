@@ -1,6 +1,6 @@
 # D²L: As Aventuras de Diana, Dena e Lacey
 
-## Seja bem vindo ao arquivo digital de D²L!** 🎀​​💜​➡️​
+## Seja bem vindo ao arquivo digital de D²L! 🎀​​💜​➡️​
 <div style="display: flex;justify-content: center">
     <img src="./images/ai/as três.png" alt="Descrição da imagem" width="300">
 </div>
@@ -11,7 +11,7 @@ Acompanhe o dia-a-dia das três meninas, Diana, Dena e Lacey e se emocione com o
 * Memórias
 * Conflitos
 * Situações engraçadas
-* Cotidiano
+* E muito mais
 
 ## Personalidade
 Fichas completas sobre cada personagem:
@@ -23,27 +23,27 @@ Representa **emoção, amor e gentileza.** Ela sente tudo intensamente e quer vi
 Representa a **lógica, pensamento e proteção.** Ela é fria, séria, e observa e detecta o perigo de uma situação, sempre planejando.
 
 ### ➡️​ Lacey
-Representa **movimento, ação e execução.** Lacey é a ponte de Diana e Dena para o mundo, e é a mais nova porta das duas para deixar de apenas olhar, e sim viver as coisas.
+Representa **movimento, espontaneidade e execução.** Lacey é a ponte de Diana e Dena para o mundo, e é a mais nova porta das duas para deixarem de apenas olhar o mundo, para sim começar a vive-lo.
 
-**Juntas, elas vivem em harmonia.**
+**E juntas, elas vivem em harmonia.**
 <hr>
 
 ## Conflito de Dena x Lacey ⚔️​
-Dena precisa estar pronta para **soltar Diana para o mundo** - de não ter mais medo.
+Dena, em algum momento, vai precisar estar pronta para **soltar Diana para o mundo**; de não ter mais medo.
 
-Lacey é forma de fazer isso, mas ela é a força oposta de Dena:
+E Lacey é forma de prepara-la para isso, mas ela é a força oposta de Dena:
 
-* Dena quer guardar e proteger Diana, para que ela não seja fria como Dena.
+* Dena quer guardar e proteger Diana, para que Diana não seja fria como ela.
 * Lacey quer liberar e deixar Diana expor seu amor para o mundo.
 
-E ai quando Lacey entra no trio na relação das duas e "rouba" Diana, Dena pensa:
+E ai, quando Lacey entra na relação das duas e "rouba" Diana, Dena pensa:
 
 > "Quem ela pensa que é?"
 
-> "Ela tá estragando minha irmã."
+> "Ela está estragando minha irmã."
 
 Mas essa nunca foi a intenção de Lacey.
-A intenção de Lacey é justamente outra. O que ela disse:
+A intenção de Lacey é justamente outra - o que ela disse:
 
 <hr/>
 
@@ -64,23 +64,20 @@ A intenção de Lacey é justamente outra. O que ela disse:
 
 **Potêncial de viver tudo o que elas quiserem.**
 
-É disso que Lacey fala.
+É disso que Lacey está falando.
 
-Mas também é disso que Dena também se preocupa.
+Mas também é disso que Dena também sente medo.
 
 E muitas das tramas vão envolver tanto essa rivalidade, quanto
 também esse amadurecimento.
 
 ## Dena e a Sombra 👥​
 
-Dena tem uma camada muito importante: ela carrega algo
-escuro e profundo.
+Dena tem uma camada muito importante: ela carrega algo **escuro e profundo.**
 
-Ao mesmo tempo em que Dena é uma mulher forte, séria e 
-muito responsável, **ela também se cobra muito e sente que
-sempre deve estar entregando algo para ter valor.**
+Ao mesmo tempo em que Dena é uma mulher forte, séria e muito responsável, **ela também se cobra muito e sente que sempre deve estar entregando algo para ter valor.**
 
-E ai, sua preocupação e segurança, começam a **machucar ela mesma.**
+E ai, sua prevenção e lógica (ilógica), começam a **machucar ela mesma.**
 
 <hr/>
 <div style="display: flex;justify-content: center">
@@ -98,8 +95,7 @@ Dena passa a achar:
 
 . . .
 
-E ela se isola, e a sombra cresce cada vez mais, tomando a
-vida e as pequenas coisas de Dena.
+E ela se isola, e a sombra cresce cada vez mais, tomando a vida e as pequenas coisas de Dena.
 
 *Mas quem consegue fazer Dena ver cor pela vida novamente?*
 
