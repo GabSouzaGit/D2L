@@ -2,7 +2,7 @@
 
 ## Seja bem vindo ao arquivo digital de D²L! 🎀​​💜​➡️​
 <div style="display: flex;justify-content: center">
-    <img src="./images/ai/as três.png" alt="Descrição da imagem" width="300">
+    <img src="./src/images/ai/as três.png" alt="Descrição da imagem" width="300">
 </div>
 
 Acompanhe o dia-a-dia das três meninas, Diana, Dena e Lacey e se emocione com o cotidiano das garotas.
@@ -58,7 +58,7 @@ A intenção de Lacey é justamente outra - o que ela disse:
 
 <hr/>
 <div style="display: flex;justify-content: center">
-    <img src="./images/ai/dena cedeu.png" alt="Descrição da imagem"/>
+    <img src="./src/images/ai/dena cedeu.png" alt="Descrição da imagem"/>
 </div>
 <hr/>
 
@@ -81,7 +81,7 @@ E ai, sua prevenção e lógica (ilógica), começam a **machucar ela mesma.**
 
 <hr/>
 <div style="display: flex;justify-content: center">
-    <img src="./images/ai/sombra.png" alt="Descrição da imagem"/>
+    <img src="./src/images/ai/sombra.png" alt="Descrição da imagem"/>
 </div>
 <hr/>
 
