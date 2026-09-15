@@ -1,0 +1,17 @@
+@NARRATOR 
+O parque estava especialmente bonito naquela manhã.
+@END
+
+@DIANA
+Gente, olha aquele cachorro!
+Ele é tão bonitinho...
+@END
+
+@LACEY
+Ele é mesmo!
+Uma gracinha.
+@END
+
+@DENA
+Deixem o cachorro do rapaz.
+@END

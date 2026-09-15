@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/D2L.egg-info/PKG-INFO
+src/D2L.egg-info/SOURCES.txt
+src/D2L.egg-info/dependency_links.txt
+src/D2L.egg-info/top_level.txt
+src/interactive-read/d2l.py
+src/interactive-read/engine.py
