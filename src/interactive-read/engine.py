@@ -65,7 +65,3 @@ def story_interpreter(filepath):
                     current_template['text'] += line + "\n"
                     
     return story_struct
-
-pprint(
-    story_interpreter("C:\\Users\\Cicero\\Desktop\\D²L\\src\\interactive-read\\stories\\s1\\example.txt")
-)
