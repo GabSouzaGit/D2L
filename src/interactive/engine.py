@@ -1,7 +1,12 @@
 from utils import ansicolors
-from pprint import pprint
 
 colors = ansicolors()
+
+colours_by_ch = {
+    'DIANA': 'PINK',
+    'DENA': 'PURPLE',
+    'LACEY': 'CYAN'
+}
 
 templates = [
     {
@@ -59,7 +64,7 @@ def story_interpreter(filepath):
                     building_block = True
 
                     current_template["name"] = key.capitalize()
-                    current_template["color"] = colors[key]
+                    current_template["color"] = colors[colours_by_ch[key]]
             else:
                 if building_block:
                     current_template['text'] += line + "\n"

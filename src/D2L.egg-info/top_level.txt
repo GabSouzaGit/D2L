@@ -1,5 +1,5 @@
 characters
 images
-interactive-read
+interactive
 lore
 musics
