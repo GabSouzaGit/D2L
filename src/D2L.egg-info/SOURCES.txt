@@ -4,5 +4,5 @@ src/D2L.egg-info/PKG-INFO
 src/D2L.egg-info/SOURCES.txt
 src/D2L.egg-info/dependency_links.txt
 src/D2L.egg-info/top_level.txt
-src/interactive/d2l.py
-src/interactive/engine.py
+src/cli/d2l.py
+src/cli/engine.py

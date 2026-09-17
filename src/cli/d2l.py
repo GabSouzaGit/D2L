@@ -1,19 +1,31 @@
-from interactive.engine import story_interpreter
+from cli.engine import story_interpreter, story_processor
 from utils import cs_clear, printcl
 from pathlib import Path
 from pprint import pprint
+import os
+
+def ascii_art():
+    print('\n')
+    print('                 ██████ ╗░██████╗░██╗░░░░░')
+    print('                 ██╔══██ ╗╚════██╗██║░░░░░')
+    print('                 ██║░░██ ║░░███╔═╝██║░░░░░')
+    print('                 ██║░░██ ║██╔══╝░░██║░░░░░')
+    print('                 ██████ ╔╝███████╗███████╗')
+    print('                  ╚═════╝░╚══════╝╚══════╝')
+    print('\n')
 
 def greet():
-    print('╔══════════════════════════════════════╗')
-    print('║       D²L — O ARQUIVO DIGITAL        ║')
-    print('╚══════════════════════════════════════╝')
+    print('╔══════════════════════════════════════════════════════════╗')
+    print('║       "D²L — As Aventuras de Diana, Dena e Lacey"        ║')
+    print('║                   O Arquivo digital                      ║')
+    print('╚══════════════════════════════════════════════════════════╝')
     print('\n')
     printcl('BLUE', 'Seja bem vindo ao sistema CLI do "D²L - As aventuras de Diana, Dena e Lacey"!')
     printcl('PINK', 'Acesse as temporadas abaixo e leia as histórias dessas 3 meninas.')
     print('\n')
 
     seasons = Path("./stories/")
-    season_paths = []
+    season_paths : list[Path] = []
 
     for index, season in enumerate(seasons.iterdir(), start=1):
         print(
@@ -22,9 +34,15 @@ def greet():
 
         season_paths.append(Path(season))
 
-    printcl('RED', '0. SAIR')
+    printcl('RED', '\n0. SAIR')
 
     return season_paths
+
+def warn_wrong_entry():
+    cs_clear()
+    printcl("YELLOW", "\nInsira um valor válido.\n")
+
+ascii_art()
 
 while 1:
     season_paths = greet()
@@ -35,15 +53,41 @@ while 1:
     if season_selected.isdigit():
         season_index = int(season_selected) - 1
 
-        if season_index < len(season_paths):
+        if season_index < len(season_paths) and season_index > -1:
             season = season_paths[season_index]
-            example = season/"example.txt" #mudar para usuário escolher historia
+            cs_clear()
 
-            # while 1: (fazer novo loop para esperar qual historia será aberta)
+            files = os.listdir(season)
 
-            story_struct = story_interpreter(example)
-            pprint(story_struct)
+            while 1:
+                for index, file in enumerate(season.iterdir(), start=1):
+                    print(f'Epsiódio {index}: {file.stem}')
 
-            input()
+                printcl('RED', '\n0 - Retornar')
+                choose = input()
+                if choose == "0": 
+                    cs_clear()
+                    break
 
-    cs_clear()
+                if choose.isdigit():
+                    index = int(choose) - 1
+                    
+                    if index < len(files) and index > -1:
+                        story_struct = story_interpreter(season/files[index])
+                        cs_clear()
+                        input("Pressione [ENTER] para avançar nos dialogos.\n\n[ENTER] -> Ok!")
+                        cs_clear()
+                        
+                        for action in story_processor(story_struct):
+                            action['call']()
+                            print("\n")
+                            input()
+
+                        print("-" * 50, "\n")
+                    else:
+                        warn_wrong_entry()
+                else:
+                    warn_wrong_entry()
+                    continue 
+    else:
+        warn_wrong_entry()

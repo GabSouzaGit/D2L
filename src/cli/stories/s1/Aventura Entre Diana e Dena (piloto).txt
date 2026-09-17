@@ -1,0 +1,46 @@
+@NARRATOR 
+O parque estava especialmente bonito naquela manhã.
+Diana, Dena e Lacey andavam sem muito rumo pelo parque, aproveitando o sol matinal.
+Diana olhava para as arvores e Lacey andava ao lado dela, e Dena
+andava com os olhos no telefone.
+@END
+
+@NARRATOR
+Até que Diana percebe um homem andando com um cachorrinho e puxa
+a camisa de Lacey, apontando para o animal.
+@END
+
+@DIANA
+Lacey, olha aquele cachorro!
+Ele é tão bonitinho...
+@END
+
+@NARRATOR
+Lacey solta um pequeno riso, e olha atentamente. Era um
+labrador do pelo bem branquinho.
+@END
+
+@LACEY
+Ele é mesmo!
+Uma gracinha.
+@END
+
+@NARRATOR
+Então, Dena finalmente tira os olhos do celular, e olha para as duas, séria
+@END
+
+@DENA
+Deixem o cachorro do rapaz.
+@END
+
+@LACEY
+Deixa de ser chata, Dena.
+@END
+
+@NARRATOR
+Dena suspira, em negação, revirando os olhos e abaixando a cabeça envergonhada pela cena.
+@END
+
+@DENA
+As pessoas estão olhando...
+@END

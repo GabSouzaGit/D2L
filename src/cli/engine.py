@@ -1,4 +1,6 @@
 from utils import ansicolors
+from time import sleep
+from utils import colors
 
 colors = ansicolors()
 
@@ -13,16 +15,27 @@ templates = [
         "type": "narrator",
         "color": colors['DEFAULT'],
         "text": "",
-        "default-speed": 0.018,
+        "default-speed": 0.025,
     },
     {
         "type": "dialog",
         "name": "",
         "color": "",
         "text": "",
-        "default-speed": 0.025,
+        "default-speed": 0.03,
     }
 ]
+
+def narrator_formatter(msg_dict : dict):
+    return f'~ "{msg_dict['text']}"'
+
+def dialog_formatter(msg_dict : dict):
+    return f'{msg_dict['name']}:\n{msg_dict['color']}{msg_dict['text']}{colors['DEFAULT']}'
+
+textfmt_by_type = {
+    'narrator': narrator_formatter,
+    'dialog': dialog_formatter
+}
 
 # Faz a analise das flags (@) e transforma o texto numa estrutura de dados.
 def story_interpreter(filepath):
@@ -70,3 +83,22 @@ def story_interpreter(filepath):
                     current_template['text'] += line + "\n"
                     
     return story_struct
+
+def print_animation(time, text):
+    for letter in text:
+        print(letter, end="", flush=True)
+        sleep(time)
+
+def story_processor(story_struct):
+    for story_part in story_struct:
+        text_formatted = textfmt_by_type[story_part['type']](story_part)
+
+        def caller():
+            print_animation(
+                story_part['default-speed'], 
+                text_formatted
+            )
+
+        yield {
+            "call": caller
+        }
