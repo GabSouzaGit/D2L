@@ -9,14 +9,13 @@ def ansicolors():
         kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
 
     return {
-        "RED": "\033[91m",
-        "PINK": "\033[38;5;218m",
-        "GREEN": "\033[92m",
-        "YELLOW": "\033[93m",
-        "BLUE": "\033[94m",
-        "PURPLE": "\033[38;5;141m",
-        "TURQUOISE": "\033[38;5;158m",
-        "CYAN": "\033[38;5;123m",
+        "RED":      "\033[91m",
+        "GREEN":    "\033[92m",
+        "YELLOW":   "\033[93m",
+        "BLUE":     "\033[0;38;2;153;175;255;49m",
+        "PINK":     "\033[0;38;2;255;153;189;49m",
+        "PURPLE":   "\033[0;38;2;225;117;255;49m",
+        "CYAN":     "\033[0;38;2;0;255;145;49m",
 
         "DEFAULT": "\033[0m"
     }
