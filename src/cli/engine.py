@@ -58,9 +58,11 @@ def story_parser(filepath):
 
         # Lê linha por linha:
         for line in (line.strip() for line in file):
-            if(line == ""): continue
+            if(line == "" and building_block == False): continue
 
             # É uma flag
+            if line == "":
+                current_template['text'] += '\n'
             if line.startswith("@"):
                 flag_line = line.removeprefix("@")
 
@@ -80,7 +82,8 @@ def story_parser(filepath):
                 key = splitted_sentence[0]
 
                 params = False
-                if len(splitted_sentence) > 1: params = json.loads(splitted_sentence[1])
+                if len(splitted_sentence) > 1: 
+                    params = json.loads(splitted_sentence[1])
 
                 current_template = typeof_text[key if key in typeof_text else "UNDEF_DIALOG"].copy()
 
@@ -109,8 +112,11 @@ def story_parser(filepath):
                 if building_block:
                     splitted_line = line.split("-")
                     if len(splitted_line) > 1:
+                        #print(splitted_line)
+                        #input()
+
                         ch_speak, inline_narrator = splitted_line
-                        current_template['text'] += f'{ch_speak}{colors['DEFAULT']} - {inline_narrator}\n'
+                        current_template['text'] += f'{ch_speak}{colors['DEFAULT']}-{inline_narrator}\n'
                         continue
 
                     current_template['text'] += f'{line}\n'

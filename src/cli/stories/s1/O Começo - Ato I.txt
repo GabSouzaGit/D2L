@@ -1,0 +1,753 @@
+@NARRATOR={"speed": 0.04}
+A noite já havia tomado conta da cidade.
+@END
+
+@NARRATOR
+No quarto, a única iluminação vinha da tela do celular de Dena.
+Ela estava deitada de lado, apoiada no travesseiro, rolando lentamente uma página de anúncios. Ao seu lado, Diana permanecia deitada de barriga para cima, olhando para o celular por cima do ombro da irmã.
+As duas estavam exaustas.
+
+Tinha sido mais um daqueles dias longos de trabalho.
+@END
+
+@NARRATOR
+Dena passou o dedo pela tela:
+@END
+
+@DENA
+Esse aqui. - disse Dena, e Diana se aproxima por cima do ombro de Dena para ver o anuncio.
+@END
+
+@DIANA
+Deixa eu ver...
+@END
+
+@NARRATOR
+Dena virou o celular um pouco na direção dela.
+O apartamento parecia bonito nas fotos. 
+
+Espaçoso, bem iluminado, com uma pequena varanda.
+@END
+
+@NARRATOR={"speed":0.045}
+Diana ficou alguns segundos olhando...
+@END
+
+@DIANA
+Eu gostei.
+@END
+
+@DENA
+Eu também.
+@END
+
+@NARRATOR
+Dena abriu os detalhes.
+O sorriso de Diana desapareceu.
+@END
+
+@DIANA
+Ah.
+@END
+
+@NARRATOR
+Dena suspira fundo, abrindo detalhes de precificação e parcelamento.
+
+@DENA
+Pois é.
+@END
+
+@DIANA
+Caro?
+@END
+
+@DENA
+Bastante.
+@END
+
+@NARRATOR
+Diana fez uma pequena careta.
+@END
+
+@DIANA
+Que saco...
+@END
+
+@NARRATOR
+E ai Dena deslizou para o próximo...
+@END
+
+@DENA
+E esse?
+@END
+
+@NARRATOR={"speed": 0.4}
+Diana olhou.
+
+@DIANA
+Não gostei - ela bufa
+@END
+
+@DENA
+Por quê?
+@END
+
+@DIANA
+A cozinha é minúscula.
+@END
+
+@NARRATOR
+Dena suspira fundo, e olha bem para Diana.
+@END
+
+@DENA
+Diana, nós somos duas pessoas.
+
+@DIANA
+Eu sei.
+@END
+
+@DENA
+Então...?
+@END
+
+@DIANA
+Eu quero uma cozinha onde eu consiga fazer as coisas!
+@END
+
+@NARRATOR
+Dena suspirou uma ultima vez, e virou os olhos para o telefone, deslizando para outro anuncio.
+@END
+
+@DENA
+Certo.
+@END
+
+@NARRATOR
+E assim elas foram...
+@END
+
+@DENA
+Esse?
+@END
+
+@DIANA
+Longe.
+@END
+
+@DENA
+Esse?
+@END
+
+@DIANA
+Pequeno.
+@END
+
+@DENA
+Esse?
+@END
+
+@DIANA
+Feio.
+@END
+
+@NARRATOR
+Dena abaixou o celular por um instante.
+@END
+
+@DENA
+Você está recusando apartamentos pelo formato das janelas agora?
+@END
+
+@NARRATOR
+Diana virou o rosto para ela, como se fosse a coisa mais obvia do mundo.
+@END
+
+@DIANA
+MAS AQUELA JANELA É ESTRANHA!
+@END
+
+@NARRATOR
+Dena segurou o riso, acenando negativamente com a cabeça.
+@END
+
+@DENA
+Certo.
+
+@NARRATOR
+Ela continuou procurando...
+
+Foram alguma horas procurando mais e mais anuncios.
+Casas, apartamentos de todo tipo.
+@END
+
+@NARRATOR
+Haviam os lindos e super caros...
+@END
+
+@NARRATOR
+... e outros que parecia ser melhor a ideia de morar debaixo de uma ponto.
+@END
+
+@NARRATOR
+Mas teve um anuncio que fez Dena parar
+@END
+
+@DENA
+Espera.
+@END
+
+@DIANA
+O quê? - respondeu, erguendo a cabeça
+@END
+
+@DENA
+Acho que encontrei um.
+@END 
+
+@NARRATOR
+E ai, Dena abriu o anúncio.
+@END
+
+@NARRATOR
+Era um apartamento simples.
+Nada extraordinário.
+Dois quartos, uma sala pequena, cozinha compacta e uma área de serviço. O prédio não era novo. 
+A região também não parecia ser uma das melhores da cidade.
+Mas o preço...
+@END
+
+@NARRATOR
+Diana se aproximou.
+@END
+
+@DIANA={"speed": 0.05}
+Esse é... - ela pausa.
+@END
+
+@DIANA
+Bem mais barato. A área não parece muito boa.
+@END
+
+@DENA
+Não é.
+@END
+
+@DIANA={"speed":0.05}
+E o apartamento é meio... - ela pausa de novo.
+@END
+
+@NARRATOR
+Diana procurou uma palavra...
+@END
+
+@DIANA
+Básico.
+@END
+
+@DENA
+É.
+@END
+
+@NARRATOR
+As duas ficaram em silêncio por alguns segundos.
+@END
+
+@NARRATOR
+Dena começou a analisar os detalhes.
+
+O condomínio não é alto, fica perto do transporte e mercado mais próximo ficava a uns dez minutos andando.
+Era uma boa aposta.
+@END
+
+@DIANA
+Cabe no nosso orçamento?
+@END
+
+@NARRATOR
+Dena fez algumas contas mentalmente.
+@END
+
+@DENA
+Se a gente continuar trabalhando e economizando como planejamos... - ela para, e olha novamente para a tela
+@END
+
+@DENA
+Sim.
+@END
+
+@NARRATOR
+Diana sorriu.
+@END
+
+@DIANA
+Então talvez esse seja o nosso.
+@END
+
+@NARRATOR
+Dena levantou uma sobrancelha.
+@END
+
+@DENA
+“Talvez”.
+Não quero comemorar antes da hora.
+@END
+
+@DIANA
+Concordo.
+@END
+
+@NARRATOR
+Diana se levantou da cama de Dena e caminhou até a dela, se deitando e aconchegando no travesseiro.
+@END
+
+@DIANA
+A gente espera uns meses. Se tudo continuar certo, a gente tenta.
+@END
+
+@NARRATOR
+Dena assentiu.
+@END
+
+@DENA
+É o mais seguro.
+@END
+
+@NARRATOR
+Diana bocejou, e se cobriu, rapidamente olhando a hora no celular.
+Eram 01:30 da manhã.
+@END
+
+@DIANA
+Dena...
+@END
+
+@NARRATOR
+Dena vira a cabeça ligeiramente para Diana
+@END
+
+@DENA
+Hm?
+@END
+
+@DIANA
+Boa noite.
+@DENA
+
+@NARRATOR
+Dena finalmente bloqueia o celular.
+@END
+
+@DENA
+Boa noite, Diana.
+@END
+
+@NARRATOR
+Ela alcançou o interruptor, e desligou.
+
+O quarto ficou escuro.
+Por alguns segundos, apenas o silêncio permaneceu.
+@END
+
+@NARRATOR
+Então:
+@END
+
+@DIANA
+Dena?
+@END
+
+@NARRATOR
+Dena se vira um pouco na cama.
+@END
+
+@DENA
+O quê?
+@END
+
+@DIANA
+Você acha que vai dar certo? - Diana pergunta, e Dena fica um instante em silencio.
+@END
+
+@DENA
+Acho.
+@END
+
+@NARRATOR
+Diana sorriu no escuro.
+@END
+
+@DIANA
+Eu também.
+@END
+
+@NARRATOR
+E as duas irmãs finalmente dormem, com a ideia de uma moradia própria das duas já plantada.
+@END
+
+@NARRATOR
+*** SETE MESES DEPOIS ***
+@END
+
+@NARRATOR
+A luz da manhã atravessava as janelas do novo apartamento.
+Ainda havia algumas caixas espalhadas pela sala.
+Algumas estavam fechadas. Outras já tinham sido abertas e deixavam livros, roupas e pequenos objetos espalhados pelos cômodos.
+
+Diana estava parada no meio da sala.
+Ela olhava ao redor com um sorriso enorme.
+@END
+
+@DIANA
+É nosso...
+@END
+
+@NARRATOR
+Atrás dela, Dena passava a vassoura pelo chão.
+@END
+
+@DENA
+Tecnicamente, alugado.
+@END
+
+@NARRATOR
+Diana virou para ela, com uma cara meio decepcionada.
+@END
+
+@DIANA
+Dena. :/
+@END
+
+@DENA
+O quê?
+@END
+
+@DIANA
+Você estragou o momento. - Dena ri discretamente
+@END
+
+@DENA
+Desculpa.
+@END
+
+@NARRATOR
+Diana voltou a olhar para a sala.
+@END
+
+@NARRATOR
+Era simples.
+Não era grande.
+Não era luxuoso.
+Mas era delas.
+@END
+
+@NARRATOR
+Dena encostou a vassoura na parede e pegou uma pequena lista.
+@END
+
+@DENA
+Certo. Precisamos organizar algumas coisas. - Dena puxa o celular, abrindo o bloco de notas
+@END
+
+@NARRATOR
+Diana olhou para ela.
+@END
+
+@DIANA
+Já?
+@END
+
+@DENA
+Já.
+@END
+
+@DIANA
+A gente acabou de chegar.
+@END
+
+@DENA
+Exatamente. - Dena começa a escrever
+@END
+
+@DENA
+Primeiro: compras. Precisamos montar uma lista básica de alimentos para a semana. - Diana assente
+@END
+
+@DIANA
+Certo.
+@END
+
+@DENA
+Segundo: contas. Aluguel, energia, água, internet e condomínio.
+@END
+
+@DIANA
+Certo.
+@END
+
+@DENA
+Terceiro: limpeza. Vamos dividir as tarefas. - Dena finalmente para de digitar, olha para Diana
+@DENA
+
+@NARRATOR
+Diana levantou a mão.
+@END
+
+@DIANA
+Eu posso ficar responsável pela cozinha?
+@END
+
+@DENA
+Pode.
+@END
+
+@DIANA
+E... e pelas plantas! - ela diz animadamente
+@END
+
+@DENA
+Nós não temos plantas.
+@END
+
+@DIANA
+Ainda.
+@END
+
+@DENA
+Tá, tá... - Dena ignorou.
+@END
+
+@DENA
+Também precisamos estabelecer quanto cada uma vai guardar por mês. 
+Se alguma emergência acontecer, precisamos ter uma reserva.
+@END
+
+@NARRATOR
+Diana ficou olhando para ela, impressionada e até um pouco perdida.
+Sua irmã era realmente impressionante quando se tratava de planos.
+@END
+
+@DIANA
+Você planejou tudo isso?
+@END
+
+@NARRATOR
+Dena mostrou a lista no celular, e uns arquivos no aplicativo: 
+@END
+
+@DENA
+Fiz algumas planilhas - Diana arregalou os olhos.
+@END
+
+@DIANA={"speed": 0.06}
+Eh... algumas?
+@END
+
+@DENA
+Três.
+@END
+
+@DIANA={"speed": 0.02}
+Três?!
+@END
+
+@NARRATOR
+Dena acena positivamente, enumerando com os dedos enquanto pensa.
+@END
+
+@DENA
+Uma para despesas mensais, uma para economia e... outra para gastos variáveis.
+@END
+
+@NARRATOR
+Diana ficou alguns segundos em silêncio.
+@END
+
+@DIANA
+Você é assustadora.
+@END
+
+@DENA
+Eu sei. - Diana riu.
+@END
+
+@DENA
+Também precisamos evitar gastos desnecessários nos primeiros meses.
+@END
+
+@NARRATOR
+Diana lentamente levantou um dedo.
+@END
+
+@DENA
+Fala.
+@END
+
+@DIANA
+O que exatamente conta como gasto desnecessário?
+@END
+
+@DENA
+Depende.
+@END
+
+@DIANA
+Bonequinhos...?
+@END
+
+@DENA
+Sim.
+@END
+
+@DIANA
+Pôsteres?
+@END
+
+@DENA
+Sim.
+@END
+
+@DIANA
+Almofadas? - ela se anima.
+@END
+
+@DENA
+Diana.
+@END
+
+@DIANA={"speed": 0.02}
+Uma luminária bonitinha!
+@END
+
+@DENA
+Temos uma luminária.
+@END
+
+@DIANA
+Mas ela não é bonitinha...
+@END
+
+@NARRATOR
+Dena respirou fundo.
+@END
+
+@DENA
+Nós acabamos de nos mudar.
+@END
+
+@DIANA
+Eu sei! Mas... - Dena corta ela.
+@END
+
+@DENA
+Precisamos priorizar.
+@END
+
+@NARRATOR
+Diana cruzou os braços.
+@END
+
+@DIANA
+Tá...
+@END
+
+@NARRATOR
+Dena olhou ao redor.
+
+Para as caixas.
+Para a sala.
+Para Diana.
+
+Por alguns segundos, ela não respondeu.
+Então soltou um pequeno sorriso.
+@END
+
+@DENA
+Podemos pensar nisso.
+@END
+
+@NARRATOR
+Os olhos de Diana se iluminaram.
+@END
+
+@DENA
+Sério?
+@END
+
+@DENA
+Dentro do orçamento. - Diana abriu um sorriso enorme.
+@END
+
+@DIANA
+Eu sabia!
+@END
+
+@NARRATOR
+Ela correu até Dena e a abraçou.
+Dena foi pega completamente de surpresa.
+@END
+
+@DENA
+Diana!
+@END
+
+@DIANA
+Obrigada! Melhor irmã do mundo!
+@END
+
+@NARRATOR
+Diana apertou ainda mais o abraço.
+@END
+
+@DIANA
+Esse vai ser o começo da nossa vida.
+@END
+
+@NARRATOR
+Dena ficou em silêncio...
+@END
+
+@NARRATOR
+Ela olhou por cima do ombro de Diana para o apartamento.
+
+Aquele lugar simples.
+As caixas.
+A pequena sala.
+A lista de despesas em sua mão.
+
+Depois olhou novamente para a irmã.
+E, dessa vez, abraçou Diana de volta.
+@END
+
+@DENA
+É. Nosso começo.
+@END
+
+@NARRATOR
+Diana fechou os olhos, sorrindo.
+@END
+
+@DIANA
+Nossa vida.
+@END
+
+@NARRATOR
+As duas permaneceram assim por alguns segundos.
+
+Do lado de fora, a cidade continuava seu movimento.
+Carros passavam.
+Pessoas caminhavam.
+O mundo seguia normalmente.
+
+Mas, naquele pequeno apartamento, duas irmãs estavam começando uma nova fase.
+Ainda não sabiam como seriam os próximos meses.
+Não sabiam quem conheceriam.
+
+Não sabiam quantas coisas dariam errado.
+E certamente não faziam ideia de que, em algum momento, uma garota de cabelo azul-turquesa apareceria em suas vidas e mudaria completamente aquela rotina.
+
+Por enquanto, porém...
+
+Era só Diana e Dena.
+E aquela era a casa delas.
+@END

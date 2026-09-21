@@ -29,12 +29,11 @@ def greet():
     seasons = BASE_PATH / "stories"
     season_paths : list[Path] = []
 
-    for index, season in enumerate(seasons.iterdir(), start=1):
-        print(
-            f'{index} - {index}ª TEMPORADA',
-        )
 
-        season_paths.append(Path(season))
+    for index, season in enumerate(seasons.iterdir()):
+        if season.is_dir(): 
+            print(f'{index} - {index}ª TEMPORADA')
+            season_paths.append(Path(season))
 
     printcl('RED', '\n0. SAIR')
 
@@ -59,7 +58,7 @@ def d2l_eventloop():
             if season_index < len(season_paths) and season_index > -1:
                 season = season_paths[season_index]
                 cs_clear()
-
+                
                 files = os.listdir(season)
 
                 while 1:

@@ -5,7 +5,7 @@ Diana olhava para as arvores e Lacey andava ao lado dela, e Dena
 andava com os olhos no telefone.
 @END
 
-@MORADOR={"speed": 0.08, "color": "BLUE"}
+@MORADOR={"color": "BLUE"}
 Essas minas em... - disse o homem estranho.
 @END
 
