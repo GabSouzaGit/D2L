@@ -58,10 +58,44 @@ Personagem criado na cor azul.
 ```
 
 ### 〰️ Citação
-Você pode adicionar citações do narrador durante a fala dos personagens com `-`, mas isso sempre deve ser a ultima sentença da frase (planos para melhorias no futuro ^_-)
+Você pode adicionar citações do narrador durante a fala dos personagens com `citation()`. Lembre-se de especificar a citação entre aspas duplas.
 
 ```
 @DIANA
-Nossa... que sorvete gostoso - disse Diana, radiante.
+Nossa... que sorvete gostoso citation("disse Diana, radiante").
+@END
+```
+
+## FLAGS ESPECIAIS
+### ⏰ @WAIT
+Determina um tempo de espera blocos.
+
+```
+@DIANA
+Oii Dena!
+@END
+
+@WAIT={"time": 1}
+
+@DENA
+... oi.
+@END
+```
+
+### ✋ @PAUSE
+Espera um evento de tecla ENTER do usuário, pausando a execução da história.
+
+```
+@NARRATOR
+O parque estava especialmente bonito naquela manhã.
+Diana, Dena e Lacey andavam sem muito rumo pelo parque, aproveitando o sol matinal.
+Diana olhava para as arvores e Lacey andava ao lado dela, e Dena
+andava com os olhos no telefone.
+@END
+
+@PAUSE
+
+@NARRATOR
+...
 @END
 ```
