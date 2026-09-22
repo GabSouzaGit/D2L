@@ -2,6 +2,10 @@ from utils import ansicolors
 from time import sleep
 from utils import colors
 import json
+import re
+
+from cli.especial_flags import wait_template, pause_template
+from cli.especial_callers import wait_caller, pause_caller
 
 colors = ansicolors()
 
@@ -24,14 +28,73 @@ templates = [
         "color": "",
         "text": "",
         "default-speed": 0.03,
+    },
+    {
+        "type": "wait",
+        "time": 0,
+    },
+    {
+        "type": "pause",
+        "message": ""
     }
 ]
+
+template_by_flag = {
+    "NARRATOR":       templates[0],
+    "DIANA":          templates[1],
+    "DENA":           templates[1],
+    "LACEY":          templates[1],
+    "UNDEF_DIALOG":   templates[1],
+
+    # Flags especiais
+    "WAIT":           templates[2],
+    "PAUSE":          templates[3]
+}
 
 def narrator_formatter(msg_dict : dict):
     return f'~ "{msg_dict['text']}"'
 
 def dialog_formatter(msg_dict : dict):
     return f'{msg_dict['name']}:\n{msg_dict['color']}{msg_dict['text']}{colors['DEFAULT']}'
+
+def get_params(line : str):
+    splitted_sentence  = line.split("=")
+    key = splitted_sentence[0]
+
+    params = False
+    if len(splitted_sentence) > 1: 
+        params = json.loads(splitted_sentence[1])
+
+    return [ params, key ]
+
+def treat_especial_flags(line):
+    actions = {
+        "WAIT": wait_template,
+        "PAUSE": pause_template
+    }
+
+    params, key = get_params(line)
+
+    if key not in actions: return [ False, params, key ]
+
+    act = actions[key](template_by_flag[key], params)
+
+    return [ act, params, key ]
+
+def treat_citations(line : str, color : str):
+    cit_start = r'citation\("'
+    cit_end = r'"\)'
+
+    has_citation = re.search(cit_start, line, flags=re.IGNORECASE)
+
+    if has_citation:
+
+        line = line.removesuffix('")')
+        line = re.sub(cit_start, f'{colors["DEFAULT"]} - ', line)
+
+        return re.sub(cit_end, f' - {color}', line)
+
+    return line
 
 textfmt_by_type = {
     'narrator': narrator_formatter,
@@ -40,14 +103,6 @@ textfmt_by_type = {
 
 # Faz a analise das flags (@) e transforma o texto numa estrutura de dados.
 def story_parser(filepath):
-    typeof_text = {
-        "NARRATOR":       templates[0],
-        "DIANA":          templates[1],
-        "DENA":           templates[1],
-        "LACEY":          templates[1],
-        "UNDEF_DIALOG":   templates[1]
-    }
-    
     story_struct = []
 
     with open(filepath, "r") as file:
@@ -78,14 +133,13 @@ def story_parser(filepath):
 
                     continue
 
-                splitted_sentence  = flag_line.split("=")
-                key = splitted_sentence[0]
+                action, params, key = treat_especial_flags(flag_line)
 
-                params = False
-                if len(splitted_sentence) > 1: 
-                    params = json.loads(splitted_sentence[1])
+                if action:
+                    story_struct.append(action)
+                    continue
 
-                current_template = typeof_text[key if key in typeof_text else "UNDEF_DIALOG"].copy()
+                current_template = template_by_flag[key if key in template_by_flag else "UNDEF_DIALOG"].copy()
 
                 if params:
                     current_template["default-speed"] = params.get(
@@ -110,15 +164,7 @@ def story_parser(filepath):
                         current_template["color"] = colors[colours_by_ch[key]]
             else:
                 if building_block:
-                    splitted_line = line.split("-")
-                    if len(splitted_line) > 1:
-                        #print(splitted_line)
-                        #input()
-
-                        ch_speak, inline_narrator = splitted_line
-                        current_template['text'] += f'{ch_speak}{colors['DEFAULT']}-{inline_narrator}\n'
-                        continue
-
+                    line = treat_citations(line, current_template["color"])
                     current_template['text'] += f'{line}\n'
                     
     return story_struct
@@ -129,15 +175,31 @@ def print_animation(time, text):
         sleep(time)
 
 def story_processor(story_struct):
-    for story_part in story_struct:
-        text_formatted = textfmt_by_type[story_part['type']](story_part)
+    especial_callers = {
+        "wait": wait_caller,
+        "pause": pause_caller
+    }
 
-        def caller():
-            print_animation(
-                story_part['default-speed'], 
-                text_formatted
-            )
+    for story_part in story_struct:
+        caller_prop = None
+
+        if story_part["type"] == "narrator" or story_part["type"] == "dialog":
+            text_formatted = textfmt_by_type[story_part['type']](story_part)
+
+            def caller():
+                print_animation(
+                    story_part['default-speed'], 
+                    text_formatted
+                )
+
+            caller_prop = caller
+        else:
+            def esp_caller():
+                especial_callers[story_part["type"]](story_part["value"])
+                
+            caller_prop = esp_caller
 
         yield {
-            "call": caller
+            "type": story_part["type"],
+            "call": caller_prop
         }

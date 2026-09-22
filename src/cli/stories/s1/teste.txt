@@ -5,14 +5,20 @@ Diana olhava para as arvores e Lacey andava ao lado dela, e Dena
 andava com os olhos no telefone.
 @END
 
+@PAUSE
+
 @MORADOR={"color": "BLUE"}
-Essas minas em... - disse o homem estranho.
+Essas minas em... citation("disse o homem estranho.")
 @END
+
+@WAIT={"time": 1}
 
 @NARRATOR
 Até que Diana percebe um homem andando com um cachorrinho e puxa
 a camisa de Lacey, apontando para o animal.
 @END
+
+@WAIT={"time": 1}
 
 @DIANA
 Lacey, olha aquele cachorro!
@@ -24,6 +30,8 @@ Lacey solta um pequeno riso, e olha atentamente. Era um
 labrador do pelo bem branquinho.
 @END
 
+@WAIT={"time": 1}
+
 @LACEY
 Ele é mesmo!
 Uma gracinha.
@@ -33,12 +41,14 @@ Uma gracinha.
 Então, Dena finalmente tira os olhos do celular, e olha para as duas, séria
 @END
 
+@PAUSE
+
 @DENA
 Deixem o cachorro do rapaz.
 @END
 
 @LACEY
-Deixa de ser chata, Dena.
+Deixa de ser chata, Dena. citation("Lacey dá um tapinha em Dena.") Ela apenas está se divertindo.
 @END
 
 @NARRATOR
@@ -48,3 +58,5 @@ Dena suspira, em negação, revirando os olhos e abaixando a cabeça envergonhad
 @DENA
 As pessoas estão olhando...
 @END
+
+@PAUSE

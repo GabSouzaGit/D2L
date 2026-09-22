@@ -6,3 +6,5 @@ src/D2L.egg-info/dependency_links.txt
 src/D2L.egg-info/top_level.txt
 src/cli/d2l.py
 src/cli/engine.py
+src/cli/especial_callers.py
+src/cli/especial_flags.py

@@ -77,13 +77,17 @@ def d2l_eventloop():
                         if index < len(files) and index > -1:
                             story_struct = story_parser(season/files[index])
                             cs_clear()
+                            #pprint(story_struct)
                             input("Pressione [ENTER] para avançar nos dialogos.\n\n[ENTER] -> Ok!")
                             cs_clear()
-                            
+
+                            # Coração do processamento linha-por-linha
                             for action in story_processor(story_struct):
                                 action['call']()
+                                if action["type"] == "wait": continue
+
                                 print("\n")
-                                input()
+                            # ---
 
                             print("-" * 50, "\n")
                         else:
