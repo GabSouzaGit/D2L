@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+main #blocks,
+main aside,
+main #greetings {
+    padding: 8px;
+} 
+
+main #container {
+    flex-grow: 7;
+}
+
+main #blocks {
+    overflow-y: scroll;
+}
+
+main .block {
+    background: hsl(0, 0%, 80%);
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+main .block .remove-block {
+    background: red;
+}
+
+main #add-block-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main aside {
+    flex-grow: 5;
+    border-left: 1px solid gray
+}
+
+@media (max-width: 800px){
+    main {
+        flex-direction: column;
+    }
+
+    main #blocks {
+        flex-grow: 12;
+    }
+
+    main aside {
+        border-left: none;
+        border-top: 1px solid gray;
+    }
+}

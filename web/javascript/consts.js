@@ -1,0 +1,1 @@
+const BLOCKS_CONTAINER = document.querySelector("main #blocks");

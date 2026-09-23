@@ -8,7 +8,7 @@ andava com os olhos no telefone.
 @PAUSE
 
 @MORADOR={"color": "BLUE"}
-Essas minas em... citation("disse o homem estranho.")
+Essas minas em... citation("disse o homem estranho, estranhando.")
 @END
 
 @WAIT={"time": 1}

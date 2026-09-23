@@ -2,6 +2,8 @@
 A noite já havia tomado conta da cidade.
 @END
 
+@PAUSE
+
 @NARRATOR
 No quarto, a única iluminação vinha da tela do celular de Dena.
 Ela estava deitada de lado, apoiada no travesseiro, rolando lentamente uma página de anúncios. Ao seu lado, Diana permanecia deitada de barriga para cima, olhando para o celular por cima do ombro da irmã.
@@ -10,17 +12,23 @@ As duas estavam exaustas.
 Tinha sido mais um daqueles dias longos de trabalho.
 @END
 
+@PAUSE
+
 @NARRATOR
 Dena passou o dedo pela tela:
 @END
 
+@WAIT={"time": 1.5}
+
 @DENA
-Esse aqui. - disse Dena, e Diana se aproxima por cima do ombro de Dena para ver o anuncio.
+E esse aqui? citation("disse Dena, e Diana se aproxima por cima do ombro de Dena para ver o anuncio.")
 @END
 
 @DIANA
 Deixa eu ver...
 @END
+
+@WAIT={"time"=2}
 
 @NARRATOR
 Dena virou o celular um pouco na direção dela.
@@ -32,6 +40,8 @@ Espaçoso, bem iluminado, com uma pequena varanda.
 @NARRATOR={"speed":0.045}
 Diana ficou alguns segundos olhando...
 @END
+
+@WAIT={"time"=2}
 
 @DIANA
 Eu gostei.
@@ -50,8 +60,13 @@ O sorriso de Diana desapareceu.
 Ah.
 @END
 
+@WAIT={"time": 1}
+
 @NARRATOR
 Dena suspira fundo, abrindo detalhes de precificação e parcelamento.
+@END
+
+@PAUSE
 
 @DENA
 Pois é.
@@ -67,7 +82,9 @@ Bastante.
 
 @NARRATOR
 Diana fez uma pequena careta.
-@END
+@
+
+@WAIT={"time": 1}
 
 @DIANA
 Que saco...
